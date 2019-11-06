@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Ostoslista</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Style/style.css" />
+</head>
+<body>
+    <div class="content">
+    <h1>Ostoslista</h1>
+    <hr>
+        <div class="price_container">
+        <div class="exp"><label>Kalleimmat raaka-aineet</label>
+        <ul id="expensive"></ul></div>
+        <div class="cheap"><label>Halvimmat raaka-aineet</label>
+        <ul id="cheap"></ul></div>
+        </div>
+
+    <div class="shopping_list">
+        <input name="food_item" type="text" id="food_item" class="food" required="required" placeholder="Syötä tuote" />
+        <input name="food_price" type="number" id="food_price" class="price" placeholder="Syötä hinta" />
+            €
+        <br />
+        <button id="submit" onclick="newFood()">Lisää ruoka</button>
+    </div>
+
+    <div class="display_food" id="display_food">
+        <label>Ostoslista</label>
+        <hr>
+        <ul id="foods"></ul>
+        <p id="sum">Yhteensä: 0€</p>
+    </div>
+    <div>
+        <button id="change" onclick="changePrice()">Muuta hinta</button>
+        <button id="remove" onclick="remove()">Poista tuote</button>
+        <button id="empty" onclick="emptyFoods()">Tyhjennä kaikki</button>
+    </div>
+    </div>
+    <script type="text/javascript" src="script/script3.js"></script>
+
+</body>
+</html>

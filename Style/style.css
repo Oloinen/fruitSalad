@@ -1,0 +1,128 @@
+
+body {
+    background-color: #F8BDE0;
+}
+
+.content {
+    width: 70%;
+    margin: 1em auto;
+    padding: 30px;
+    border: 4px solid #FF1493;
+    border-radius: 11px;
+    background-color: #FEDEEF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #493641;
+    
+}
+.price_container {
+    overflow: hidden;
+    position: relative;
+    display: table;
+    margin: auto;
+}
+label {
+    font-weight: bold;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+
+.price_container ul {
+    width: fit-content;
+}
+.exp {
+    display: table-cell;
+    padding: 15px;
+}
+.cheap {
+    display: table-cell;
+    padding: 15px;
+}
+.price_container li {
+    list-style: none;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 2.7em;
+    text-align: center;
+    margin-bottom: -2px;
+}
+
+hr {
+    border: 1px solid #FF1493;
+    width: 80%;
+    margin-bottom: 20px;
+    background-color: #FF1493;  
+}
+
+.shopping_list {
+    margin: auto;
+    position: relative;
+    width: fit-content;
+    text-align: right;
+}
+
+.display_food {
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+    width: 65%;
+}
+input {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+button {
+    font-size: 13px;
+    border-radius: 7px;
+    padding: 3px 10px 4px 10px;
+    border-style: outset;
+}
+button#submit {
+    text-align: right;
+    background-color: #EB5D85;
+    margin-right: 5%;
+    border: 3px #ECA4F9;
+    border-style: outset;
+}
+.display_food > label {
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+}
+.display_food > hr {
+    background-color: #FEDEEF;
+    border: 1px dashed #DE6B1C;
+    width: 100%;
+    margin-top: -5px;
+}
+button#remove {
+    background-color: rgb(236, 75, 222);
+    border: 3px #e5a0c9;
+    border-style: outset;
+}
+button#change {
+    background-color: rgb(229, 136, 238);
+    border: 3px #eeaae3;
+    border-style: outset;
+}
+button#empty {
+    background-color: rgb(243, 36, 88);
+    border: 3px #dd66ac;
+    border-style: outset;
+}
+div:last-child {
+    text-align: center;
+}
+.display_food > p {
+    text-align: right;
+}
+li {
+    list-style-type: square;
+}
+.display_food li:hover {
+    background-color: #FF1493;
+}
+
+
